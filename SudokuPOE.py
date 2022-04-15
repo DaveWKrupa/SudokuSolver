@@ -2,6 +2,7 @@ from collections import namedtuple
 from Constants import ROW_INDEX, COL_INDEX, FORWARD_DIAG_CELL_KEYS, KEY_LIST
 
 
+# Process of elimination
 class SudokuPOE:
     def __init__(self):
         self.puzzle_dictionary = dict()
